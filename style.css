@@ -1,0 +1,353 @@
+/**
+By: Yao
+**/
+/*Police d'écriture*/
+@font-face {
+  font-family: Cafe;
+  src: url(font/Louis George Cafe.ttf);
+}
+/*Fond de page*/
+html {
+  background-image: url("background.png");
+  background-color: #DCDCDC;
+  background-size:contain auto;
+  padding:30px 100px;
+  font-family: "Cafe", Helvetica, Arial, sans-serif;
+}
+
+/*Heder*/
+#conteneur_cv {
+background-color:White;
+border-radius:40px;
+}
+#logoMenu{
+  height: 50px;
+}
+.Cont{
+  margin-left:40px;
+  text-decoration: solid;
+  color: black;
+}
+li .Cont:hover{
+  color: #297DFF;
+}
+nav {
+  display: flex;
+  height:90px;
+  padding: 40px 40px 0px 40px;
+  background-color: white;
+  border-radius: 40px;
+}
+nav .menu li {
+  display:inline-block;
+}
+.menu {
+  width:100%;
+}
+.menu ul {
+  padding-left:0px;
+}
+.droite {
+  float:right;
+}
+
+/*DevÉtudiant*/
+#YaoPhoto {
+  position: relative;
+  right: 90px;
+  border-radius: 70%;
+  border:solid;
+  border-color: white;
+  border-width:14px;
+  height: 340px;
+}
+#section1 {
+  display:flex;
+  flex-direction:row;
+  padding: 5% 15%;
+  background-color: #fffdfc;
+  align-items:stretch;
+}
+#moitié1 {
+  width:50%;
+  padding : 0;
+}
+
+#moitié1 img {
+  box-shadow: 8px 8px 12px #aaa;
+  margin-right : 29px;
+}
+#moitié2 {
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  margin-left: 80px;
+  padding-top:35px;
+  flex-basis: 40em;
+}
+.bouton {
+  border-radius: 40px;
+  background-color:white;
+  padding:8px 25px;
+  border-color:#297DFF;
+  border-style:solid;
+  box-shadow: 2px 2px 3px #aaa;
+  font-size:15px;
+  cursor: pointer;
+}
+.bouton:hover{
+  background-color: #297DFF;
+  color: white;
+}
+/*Compétences*/
+#section2 {
+  padding: 50px 60px 0px 65px;
+}
+#section2 h3 {
+  margin-top:0px;
+  margin-bottom:3px;
+}
+#ligne {
+  height:3px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#13A2FF), color-stop(20%,#13A2FF), color-stop(20%,#F4F6F7), color-stop(100%,#F4F6F7));
+  width: 175px;
+  margin-bottom:27px;
+}
+.ensemble{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.ensemble .competences {
+  display:flex;
+  flex-direction:row;
+  flex-basis: 50%;
+}
+.ensemble img {
+  min-width:45px;
+  height:45px;
+}
+.ensemble h5 {
+  margin-top:2px;
+  margin-bottom:10px;
+}
+.ensemble .blocDroite {
+  margin-left:18px;
+  padding-right:30px;
+}
+.ensemble p {
+   font-size:17px;
+   color:#ADADAD;
+   line-height:25px;
+ }
+
+/*Outils*/
+.arrow{
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  opacity: 0.2;
+  position: relative;
+  top: 140px;
+}
+.arrow:hover{
+  opacity: 0.8;
+}
+#arrow1{
+  height: 60px;
+  position: relative;
+  right: 55px;
+}
+#arrow2{
+  height: 60px;
+  position: relative;
+  right: -63px;
+}
+.conteneurClients {
+  display: flex;
+  overflow-x: scroll;
+  /*flex-wrap: wrap;*/
+}
+.conteneurClients::-webkit-scrollbar{
+
+}
+
+#section3 {
+  padding: 35px 100px 50px 65px;
+}
+#ligne2 {
+  height:3px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#13A2FF), color-stop(25%,#13A2FF), color-stop(25%,#F4F6F7), color-stop(100%,#F4F6F7));
+  width: 130px;
+  margin-bottom:55px;
+}
+#section3 h3 {
+  margin-top:0px;
+  margin-bottom:2px;
+}
+#conteneurSection3 {
+  display:flex;
+  flex-direction:row;
+}
+.conteneurClients #scrum{
+  height: 150px;
+}
+.conteneurClients #agile{
+  height: 150px;
+}
+.conteneurClients #comp{
+ height: 150px;
+}
+.conteneurClients #java{
+  height: 150px;
+}
+.conteneurClients #git{
+  height: 150px;
+}
+.conteneurClients #sql{
+  height: 100px;
+}
+.conteneurClients #js{
+  height: 150px;
+}
+.conteneurClients #php{
+  height: 150px;
+}
+
+.blocsClient {
+  padding : 26px 50px 10px 60px;
+  border: solid #F3F2F2 3px;
+  border-radius: 10px;
+}
+.blocsClient p {
+  margin:0;
+  font-size:20px;
+}
+.blocsClient h4 {
+  margin-bottom:0;
+  margin-top:10px;
+}
+#section3 p {
+   font-size:17px;
+   color:#ADADAD;
+   line-height:25px;
+}
+.iconePortait {
+  width:75px;
+  height:75px;
+  background-size: contain;
+  position: absolute;
+  border-radius: 180px;
+  margin-left:-85px;
+  margin-top: -50px;
+}
+.commaFirst {
+  position: absolute;
+  height:20px;
+  margin-left:-45px;
+  margin-top: -52px;
+}
+.commaSecond {
+  margin-right:-20px;
+  height:20px;
+  transform: rotate(180deg);
+  float:right;
+}
+#ligne3 {
+  height:3px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#13A2FF), color-stop(25%,#13A2FF), color-stop(25%,#FFFFFF), color-stop(50%,#FFFFFF), color-stop(50%,#CBCBCB), color-stop(100%,#CBCBCB));
+  width: 70px;
+  margin:0 auto;
+  margin-top:70px;
+}
+#section4 {
+  padding: 35px 100px 50px 65px;
+}
+#section4 h3 {
+  margin-top:0px;
+}
+#ligne4 {
+  height:3px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#13A2FF), color-stop(32%,#13A2FF), color-stop(32%,#F4F6F7), color-stop(100%,#F4F6F7));
+  width: 90px;
+  margin-bottom:55px;
+}
+#ligne5 {
+  height:3px;
+  background: -webkit-gradient(linear, left top, right top,  color-stop(0%,#CBCBCB), color-stop(50%,#CBCBCB), color-stop(50%,#FFFFFF), color-stop(75%,#FFFFFF), color-stop(75%,#13A2FF), color-stop(100%,#13A2FF));
+  width: 70px;
+  margin:0 auto;
+  margin-top:50px;
+}
+#section5 {
+  padding: 35px 65px 50px 65px;
+}
+#section5 h5 {
+  font-size: 17px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+#section5 p {
+  font-size:45px;
+  margin : 0;
+  color: #d3d3d3;
+  font-weight:bold;
+}
+#ligne6 {
+  height:3px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#13A2FF), color-stop(16%,#13A2FF), color-stop(16%,#F4F6F7), color-stop(100%,#F4F6F7));
+  width: 200px;
+  margin-bottom:55px;
+}
+#organisateur {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.conteneurHistoires {
+  text-align: center;
+  border: solid #E1E1E1;
+  padding:15px 55px;
+  border-radius: 10px;
+}
+#ligne7 {
+  width:100%;
+  border: solid #E1E1E1 1px;
+}
+footer {
+  border-radius: 40px;
+}
+footer li {
+  display: inline-block;
+  margin-bottom:25px;
+  margin-top:25px;
+  color: #B9B9B9;
+  margin-left: 1%;
+}
+.gauche {
+  margin-left: 20px;
+}
+footer ul {
+  margin:0;
+  padding-right:40px;
+}
+.FondColor{
+  color: #D9B9B9
+}
+#réseau:hover{
+  cursor: not-allowed;
+  color: #F54503
+}
+#coloRéseau{
+  text-decoration-line: unset;
+  cursor: grab;
+  color: #13A2FF
+}
+#colorRéseau:hover{
+
+}
+#copyr:hover{
+  cursor: grabbing;
+  color: #000000
+}
