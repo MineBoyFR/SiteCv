@@ -152,6 +152,7 @@ nav .menu li {
 }
 .arrow:hover{
   opacity: 0.8;
+  cursor: help;
 }
 #arrow1{
   height: 60px;
@@ -169,7 +170,7 @@ nav .menu li {
   /*flex-wrap: wrap;*/
 }
 .conteneurClients::-webkit-scrollbar{
-
+  /*display: none;*/
 }
 
 #section3 {
