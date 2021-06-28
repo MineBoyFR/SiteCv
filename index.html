@@ -5,6 +5,7 @@
 <head>
   <meta charset = "utf-8">
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" media="screen and (max-width: 1200px)" href="résolution mobile" />
   <title>CV en ligne</title>
   <!--Haut de Page-->
 </head>
@@ -25,7 +26,7 @@
   <!--DevÉtudiant-->
 </header>
 <body>
-  <section id="section1">
+  <section id="section1" class="test">
     <div id = "moitié1">
       <div id="cadrePhoto">
         <img id="YaoPhoto" src="Yao.png" alt="La photo du CV">
@@ -56,14 +57,14 @@
         <img src="https://img.icons8.com/cotton/64/000000/talk.png" alt="icone relationnel">
         <div class="blocDroite">
           <h5 style="font-size:20px;">Relationnel</h5>
-          <p>J'aime vraiment la communication dans un groupe, le partage ainsi que l’apprentissage de nouvelle connaissance dans un domaine.</p>
+          <p>J'aime vraiment la communication dans un groupe, le partage ainsi que l’apprentissage de nouvelles connaissances dans un domaine.</p>
         </div>
       </div>
       <div class="competences">
         <img src="browser.png" alt="icone HTML">
         <div class="blocDroite">
           <h5 style="font-size:20px;">Html/Css</h5>
-          <p>J'ai apris cette année le HTML ainsi que le CSS deux langages qui se complète mutuellement avec une petite touche de Javascript qui lui nous permet d'ajouter des animations au site web.</p>
+          <p>J'ai appris cette année le HTML ainsi que le CSS deux langages qui se complètent mutuellement avec une petite touche de Javascript qui lui nous permet d'ajouter des animations au site web.</p>
         </div>
       </div>
       <div class="competences">
@@ -101,19 +102,21 @@
   <section id="section4">
     <h3 style="font-size:27px;">Outils</h3>
     <div id = "ligne4"></div>
-    <div class="arrow">
+    <!--<div class="arrow" temporairement off>
       <img id="arrow1" src="arrow2.png" alt="flèche1" title="Soon Maj">
       <img id="arrow2" src="arrow1.png" alt="flèche1" title="Soon Maj">
-    </div>
+    </div>-->
     <div class= "conteneurClients">
-      <img id="scrum" src="Scrum.jpg" alt="LogoScrum">
-      <img  id="agile" src="Agile.jpg" alt="LogoAgilité">
-      <img id="comp" src="js.jpg" alt="LogoCssHtml">
-      <img id="java" src="java.png" alt="LogoJava">
-      <img id="sql" src="sql.png" alt="LogoJava">
-      <img id="git" src="git.png" alt="LogoGit">
-      <img id="js" src="js.png" alt="LogoJs">
-      <img id="php" src="php.png" alt="LogoPhp"
+      <div class="blc">
+      <img class="item" id="scrum" src="Scrum.jpg" alt="LogoScrum" title="Soon Maj">
+      <img class="item" id="agile" src="Agile.jpg" alt="LogoAgilité" title="Soon Maj">
+      <img class="item" id="comp" src="js.jpg" alt="LogoCssHtml" title="Soon Maj">
+      <img class="item" id="java" src="java.png" alt="LogoJava" title="Soon Maj">
+      <img class="item" id="sql" src="sql.png" alt="LogoJava" title="Soon Maj">
+      <img class="item" id="git" src="git.png" alt="LogoGit" title="Soon Maj">
+      <img class="item" id="js" src="js.png" alt="LogoJs" title="Soon Maj">
+      <img class="item" id="php" src="php.png" alt="LogoPhp" title="Soon Maj">
+    </div>
     </div>
     <div id="ligne5"></div>
   </section>
@@ -122,22 +125,22 @@
     <div id = "ligne6"></div>
     <div id="organisateur">
     <div class="conteneurHistoires">
-      <img src="https://img.icons8.com/color/48/000000/smiling-face-with-heart.png">
+      <img src="">
       <h5>Clients heureux</h5>
       <p class="texteHistoires">1995</p>
     </div>
     <div class="conteneurHistoires">
-        <img src="https://img.icons8.com/doodle/48/000000/watches-front-view.png">
+        <img src="">
         <h5>Heures de travail</h5>
         <p class="texteHistoires">2777</p>
     </div>
     <div class="conteneurHistoires">
-      <img src="https://img.icons8.com/doodle/48/000000/star--v1.png">
+      <img src="">
       <h5>Projets réalisés</h5>
       <p class="texteHistoires">312</p>
     </div>
     <div class="conteneurHistoires">
-      <img src="https://img.icons8.com/doodle/48/000000/cafe--v1.png">
+      <img src="">
       <h5>Cafés consommés</h5>
       <p class="texteHistoires">1047</p>
     </div>
@@ -151,7 +154,7 @@
     <li><a id="coloRéseau" href="https://www.linkedin.com/in/yaomanu/" title="Linkedln"> Linkedln</li>
     <li><a id="coloRéseau" href="https://github.com/MineBoyFR" title="github"> GitHub</li>
     <li class="gauche"  id="réseau" title="Discord Soon">Discord</li>
-    <li class= "droite"  id="copyr">Beta.V1.9.8 © 2020 tous droits réservés Yao</li>
+    <li class= "droite"  id="copyr">Beta.V1.10.5 © 2021 tous droits réservés Yao</li>
   </div>
   </ul>
 </footer>
